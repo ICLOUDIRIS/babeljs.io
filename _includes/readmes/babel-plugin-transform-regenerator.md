@@ -4,7 +4,7 @@
 
 ## 示例 
 
-**In**
+**输入**
 
 ```javascript
 function* a() {
@@ -12,7 +12,7 @@ function* a() {
 }
 ```
 
-**Out**
+**输出**
 
 ```javascript
 var _marked = [a].map(regeneratorRuntime.mark);
@@ -52,7 +52,7 @@ npm install --save-dev babel-plugin-transform-regenerator
 }
 ```
 
-设置选项:
+选项:
 
 |name|default value|
 |---|---|
@@ -72,7 +72,7 @@ npm install --save-dev babel-plugin-transform-regenerator
 }
 ```
 
-### 通过 CLI脚手架
+### 通过 CLI
 
 ```sh
 babel --plugins transform-regenerator script.js
