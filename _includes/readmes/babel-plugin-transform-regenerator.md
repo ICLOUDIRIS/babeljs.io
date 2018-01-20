@@ -1,7 +1,6 @@
 # babel-plugin-transform-regenerator
 
->  异步转换 / 利用再生器进行再生 Transform async/generator functions with [regenerator](https://github.com/facebook/regenerator)
-
+>  使用 [regenerator](https://github.com/facebook/regenerator) 转译 async/generator 函数 
 ## 示例 
 
 **输入**
